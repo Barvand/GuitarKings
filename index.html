@@ -1,33 +1,43 @@
 <!doctype html>
 <html lang="en">
+
 <head> 
     <meta charset="UTF-8">
     <meta name="description" content="Guitars, cheap guitars, guitar kings">
     <meta name="viewport" content="width=device-width, initial-scale="1.0"> 
     <link href="CSS/Styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    
 
     <title>
         Guitar kings
     </title>
 </head>
+<body>
     <Header> 
-    <a href="index.html">Guitar kings</a>
+        <div class="header">
+            <a href="index.html"class="guitarkings">Guitar Kings</a>
+
     <nav>
         <ul>
-        <li><a href="index.html"> Home</a> </li>
-        <li><a href="Guitars.html"> Guitars</a> </li>
-        <li><a href="Contact.html"> Contact</a> </li>
+        <li><a href="index.html" class="active"> Home</a> </li>
+        <li><a href="Guitars.html" class="active1">Guitars</a> </li>
+        <li><a href="Contact.html" class="active2"> Contact</a> </li>
         </ul>
     </nav> 
 
     </Header>
     
     <Main>
-        <section>
+        <section class="homeheader">
+          <img src="Images/home-header (2).jpg"alt="homeheader">
+          <section class="homeheader-text">
         <h1> Authentic Handmade Guitars </h1>
-           <p><a href="Guitars.html"> View guitars</a></p>
-        </section>
-
+           <b><a href="Guitars.html" class=viewguitarbutton>View guitars</a></b>
+           </section>
+    </section
            <section>
            <h2> Our Guitars Are </h2>
             <ul>
@@ -37,24 +47,41 @@
                 <li> Beautiful unique sound </li>
                 <li> Options for all music lovers </li>
                 </ul>
-                <p> <img src="/Images/home-info.jpg" alt="Homeinfo" width="700" height="400"></p>
+                <img src="/Images/home-info.jpg" alt="Homeinfo" width="700" height="400">
             </section>
-
-<section>
+        
+    <div class="reviews">
 <h2> Reviews </h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. - Bob Willis </p>
-    <p> <img src="/Images/review-bio.jpg" alt="Profilepic" width="200" height="200"></p>
+    <img src="/Images/review-bio.jpg" alt="Profilepic" width="200" height="200">
    <p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. - Oldfield </p>
-    <p> <img src="/Images/review-bio2 (1).jpg" alt="Profilepic2" width="200" height="200"></p>
-</section>
+    <img src="/Images/review-bio2 (1).jpg" alt="Profilepic2" width="200" height="200">
+</div>
 
-<section>  
+<section> 
 <h2> View Our Guitars </h2>
-<p><a href="Adirondack-red.html"> Adirondack Red</a></p>
 <h3><u>Adirondack Red</u></h3>
-<p> 500$ </p>
+<p>500$</p>
+<p><a href="Adirondack-red.html" id="onsale">On sale</a> </p>
 <img src="Images/product-specific.jpg" alt="Adirondack" width="700">
 </section> 
+
+<section>  
+    <h3><u>Adirondack Red</u></h3>
+    <p>500$</p>
+    <p><a href="Adirondack-red.html" id="onsale">On sale</a> </p>
+    <img src="Images/product-specific.jpg" alt="Adirondack" width="700">
+    </section> 
+
+    <section>  
+        <h3><u>Adirondack Red</u></h3>
+        <p>500$</p>
+        <p><a href="Adirondack-red.html" id="onsale">On sale</a> </p>
+        <img src="Images/product-specific.jpg" alt="Adirondack" width="700">
+        </section> 
+
+
+</body>
 
     </Main>
 

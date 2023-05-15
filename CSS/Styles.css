@@ -1,6 +1,118 @@
-h1 {
+* {
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-family: sans-serif;
+}
+
+
+h1,h2 {
 font-size: 40px;
-color: green;    
+color: rgb(51, 56, 51);
+font-family:'Courier New', Courier, monospace;    
+}
+
+Nav li {
+    display:inline;
+}
+
+nav a{ 
+    color: #000;
+    text-decoration: none;
+    padding:10px    
+}
+
+nav a:hover {
+text-decoration: underline;
+}
+
+nav ul{ 
+    padding: 0px;
+    position: relative;
+    left: 400px;
+    top: 30px;
+    font-size: 25px;
+
+}
+
+.active, .active1, .active2 {
+    color: #fff;
+}
+
+.guitarkings:hover {
+    text-decoration: underline;
+}
+
+.guitarkings {
+    background-color: #000;
+    color:#fff;
+    padding: 5px;
+    text-decoration: none;
+    position: relative;
+    top:  30px;
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+}
+
+#onsale {
+    background-color: rgb(3, 73, 3);
+    padding: 10px;
+    color: #fff;
+    text-decoration: underline;
+}
 
 
+#viewguitars {
+    background-color: red;
+    color:white;
+    padding: 10px;
+}
+
+.header {
+    padding: 30px;
+    text-align: left;
+    background: black;
+    color: white;
+    font-size: 20px;
+  }
+
+.homeheader {
+    position: relative;
+}
+
+.homeheader img {
+    width: 3300px;
+    height: 500px;
+}
+
+.homeheader-text {
+position:absolute;
+top: 25%;
+color: #000;
+padding: 20px;
+}
+
+.homeheader-text h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-size: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.viewguitarbutton {
+    position: absolute;
+    left: 800px;
+    background-color:red;
+    border: black;
+    color:white;
+    padding: 20px 40px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px; 
+}
+
+.reviews {
+    background-color: rgba(211, 211, 211, 0.938);
 }
